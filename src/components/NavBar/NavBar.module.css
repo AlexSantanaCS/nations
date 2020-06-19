@@ -1,0 +1,26 @@
+#container {
+    background-color: #65afff;
+    box-shadow: 0px 0px 8px 1px black; 
+}
+
+#logo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    letter-spacing: 2px;
+    color: #eee;
+}
+
+#about {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #eee;
+}
+
+@media (max-width: 500px){
+    #logo {
+        padding-left: 10%;
+    }
+
+    #about {
+        padding-right: 5%;
+    }
+}

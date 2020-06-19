@@ -1,0 +1,15 @@
+#content {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#header {
+    padding-left: 10%;
+    text-decoration: underline;
+}
+
+@media (max-width: 500px){
+    #small {
+        padding-top: 5%;
+        font-size: 0.4em;
+    }
+}
